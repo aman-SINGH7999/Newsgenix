@@ -1,5 +1,5 @@
 const express = require('express')
-const {addNews, updateNews, deleteNews,getnews, allNews} = require('../controller/newsController')
+const {addNews, updateNews, deleteNews, allNews, getnews} = require('../controller/newsController')
 const auth = require('../middleware/auth')
 
 const router = express.Router();

@@ -93,4 +93,4 @@ const allNews =  async (req,res)=>{
     }
 }
 
-module.exports = {addNews, getnews, updateNews, deleteNews ,allNews}
+module.exports = {addNews, updateNews, deleteNews ,allNews, getnews}
